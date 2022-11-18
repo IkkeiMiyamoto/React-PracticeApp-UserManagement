@@ -1,3 +1,4 @@
+import React from "react";
 import { StrictMode } from "react";
 import ReactDom from "react-dom";
 
