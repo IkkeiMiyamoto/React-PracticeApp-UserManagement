@@ -17,5 +17,5 @@ export const useAuth = () =>{
             }
         }).catch(() => alert("ログインできません")).finally(() => setLoading(false));
     },[history]);
-    return{login};
+    return{login,loading};
 }
